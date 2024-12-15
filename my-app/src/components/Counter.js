@@ -8,6 +8,7 @@ class Counter extends Component {
     this.state ={
         count: 0,
         mode: 'increment'
+
     }
 }
 
@@ -18,7 +19,7 @@ handleCount = () =>{
 
 }
 
-ttogleMode = ()=>{
+toggleMode = ()=>{
         this.setState({
             mode: this.state.mode === 'increment' ? 'decrement' : 'increment'
         })
@@ -28,6 +29,13 @@ resetCounter = ()=>{
         this.setState({
             count:0
         })
+}
+handleChangeMultiplier = (newValue) =>{
+        this.setState({
+            count: this.state.count + newValue
+        })
+
+
 }
 render(){
         return(
@@ -40,12 +48,30 @@ render(){
                     {this.state.mode === 'increment' ? 'Додати 1 ' : 'Відняти 1  '}
                 </button>
 
-                <button className='counter-button ttogle-button' onClick={this.ttogleMode}>
+                <button className='counter-button ttogle-button' onClick={this.toggleMode}>
                     Перемкнути режим!
                 </button>
 
                 <button className='counter-button reset-button' onClick={this.resetCounter}>
                     Скинути!
+                </button>
+
+                <button
+                    className='counter-button uptwo-button'
+                        onClick={() => {this.handleChangeMultiplier(2)}}>
+                    Збільшити на 2
+                </button>
+
+                <button
+                    className='counter-button upfive-button'
+                    onClick={() => {this.handleChangeMultiplier(5)}}>
+                    Збільшити на 5
+                </button>
+
+                <button
+                    className='counter-button upten-button'
+                    onClick={() => {this.handleChangeMultiplier(10)}}>
+                    Збільшити на 10
                 </button>
 
 

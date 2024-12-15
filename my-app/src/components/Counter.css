@@ -72,3 +72,30 @@
 .reset-button:active {
     background-color: #d32f2f;
 }
+.uptwo-button{
+    background-color: blueviolet;
+}
+.uptwo-button:hover{
+    background-color: darkmagenta;
+}
+.uptwo-button:active{
+    background-color: rebeccapurple;
+}
+.upfive-button{
+    background-color: blueviolet;
+}
+.upfive-button:hover{
+    background-color: darkmagenta;
+}
+.upfive-button:active{
+    background-color: rebeccapurple;
+}
+.upten-button{
+    background-color: blueviolet;
+}
+.upten-button:hover{
+    background-color: darkmagenta;
+}
+.upten-button:active{
+    background-color: rebeccapurple;
+}
