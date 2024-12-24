@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7429786-fd1d-4c77-9980-abfd0e4179fe" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/my-app/src/pages/SmileVote/ResetButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/pages/SmileVote/SaveLocalStorage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/pages/SmileVote/SmileList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/pages/SmileVote/SmilePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/pages/SmileVote/SmileResult.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/pages/TodoPage/TodoForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/pages/TodoPage/TodoItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/pages/TodoPage/TodoList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/pages/TodoPage/TodoPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/SmileVote/SaveLocalStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/pages/SmileVote/SaveLocalStorage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -116,7 +107,8 @@
       <workItem from="1734801861300" duration="2887000" />
       <workItem from="1734899088513" duration="531000" />
       <workItem from="1734963528253" duration="6355000" />
-      <workItem from="1735070051397" duration="3121000" />
+      <workItem from="1735070051397" duration="3393000" />
+      <workItem from="1735073872744" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -150,11 +142,30 @@
       <option name="project" value="LOCAL" />
       <updated>1734264506361</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=".">
+      <option name="closed" value="true" />
+      <created>1735073714037</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735073714037</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
