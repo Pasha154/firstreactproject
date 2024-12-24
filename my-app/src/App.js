@@ -1,9 +1,11 @@
-import Counter from "./components/Counter";
+import TodoPage from "./pages/TodoPage/TodoPage";
+import SmilePage from "./pages/SmileVote/SmilePage";
 
 function App() {
   return (
     <div >
-      <Counter />
+      <TodoPage />
+        <SmilePage/>
 
     </div>
   );

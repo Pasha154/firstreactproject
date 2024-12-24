@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7429786-fd1d-4c77-9980-abfd0e4179fe" name="Changes" comment="." />
+    <list default="true" id="e7429786-fd1d-4c77-9980-abfd0e4179fe" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/my-app/src/pages/SmileVote/ResetButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/pages/SmileVote/SaveLocalStorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/pages/SmileVote/SmileList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/pages/SmileVote/SmilePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/pages/SmileVote/SmileResult.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/pages/TodoPage/TodoForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/pages/TodoPage/TodoItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/pages/TodoPage/TodoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/pages/TodoPage/TodoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,20 +25,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Pasha154/firstreactone.git",
-    "accountId": "f4d2ab7a-bfb6-4799-a29d-5367f4822e2e"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pasha154&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pasha154/firstreactone.git&quot;,
+    &quot;accountId&quot;: &quot;f4d2ab7a-bfb6-4799-a29d-5367f4822e2e&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/my-app/src/pages/SmileVote/SaveLocalStorage.js" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -35,23 +56,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/PAVEL/WebstormProjects/firstreact",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Run",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PAVEL/WebstormProjects/firstreact&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="npm.start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -89,7 +110,13 @@
       <updated>1734094780834</updated>
       <workItem from="1734094782302" duration="8456000" />
       <workItem from="1734259280365" duration="3411000" />
-      <workItem from="1734263116787" duration="886000" />
+      <workItem from="1734263116787" duration="1431000" />
+      <workItem from="1734620414548" duration="4859000" />
+      <workItem from="1734725579216" duration="2850000" />
+      <workItem from="1734801861300" duration="2887000" />
+      <workItem from="1734899088513" duration="531000" />
+      <workItem from="1734963528253" duration="6355000" />
+      <workItem from="1735070051397" duration="3121000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -115,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734263186132</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".">
+      <option name="closed" value="true" />
+      <created>1734264506361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734264506361</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
